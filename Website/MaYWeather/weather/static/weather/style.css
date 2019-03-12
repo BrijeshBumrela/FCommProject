@@ -1,4 +1,48 @@
-.container {
-    background: black;
-    height: 100px;
+body {
+    background-color: lightgray;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    align-items: center;
+    width: 90%;
+    padding: 0 10px;
+}
+
+.number {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.map {
+    height: 400px;
+}
+
+.main-city {
+    background: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding: 5px 10px;
+}
+
+.city {
+    height: 20%;
+    padding-top: 5px;
 }
