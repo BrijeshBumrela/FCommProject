@@ -1,6 +1,8 @@
 body {
     background-color: lightgray;
-    margin-bottom: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.45;
 }
 
 .cards {
@@ -45,4 +47,72 @@ body {
 .city {
     height: 20%;
     padding-top: 5px;
+}
+
+.custom-nav li {
+    width: 150px;
+}
+
+
+.card {
+  position: relative;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.card-head {
+  background: #483745;
+  padding: 15px 20px;
+}
+
+.card-head-title {
+  color: #fff;
+  font-weight: 800;
+}
+
+.card-body {
+  padding: 20px;
+  color: #fff;
+}
+
+.card-stats-row {
+  padding: 15px;
+  position: relative;
+  margin-bottom: 20px;
+  background: white;
+
+}
+
+.card-stats-amount {
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.card-stats-change {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+
+.card-stats-change-timeframe {
+    color: black;
+}
+
+.change-positive {
+  color: #AEDC6F;
+}
+
+.change-negative {
+  color: #FB5055;
+}
+
+footer {
+    margin-top: 20px;
+    background: white;
 }
